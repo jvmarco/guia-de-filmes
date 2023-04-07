@@ -3,9 +3,7 @@
 > Status do projeto: Completo
 
 Para utilizar o site é simples. Basta digitar o nome do filme escolhido, e clicar em "pesquisar". Devido a API ter sido desenvolvida na lingua inglesa, você deve pesquisar sempre pelo nome em inglês. 
-Ex:
-
-Ao invés de pesquisar Cidade de Deus, pesquise "City of God", que ira puxar normalmente. 
+Ex: Ao invés de pesquisar Cidade de Deus, pesquise "City of God", que ira puxar normalmente. 
 
 Feito a pesquisa, você vai ter informações como:
 
