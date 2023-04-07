@@ -2,7 +2,7 @@ let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
 
-//função para buscar dados da API
+//função p/ buscar dados da API
 
 let getMovie = () =>{
     
@@ -18,7 +18,7 @@ let getMovie = () =>{
             if(data.Response == "True"){
                 result.innerHTML = `
                     <div class="info">
-                        <img src${data.Poster} class="poster">
+                    <img src="${data.Poster}" class="poster">
                         <div>
                             <h2>${data.Title}</h2>
                             <div class="rating">
@@ -59,3 +59,4 @@ let getMovie = () =>{
 
 searchBtn.addEventListener("click", getMovie);
 window.addEventListener("load", getMovie);
+    
